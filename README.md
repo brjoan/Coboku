@@ -1,5 +1,5 @@
 # Coboku
-Cobol implementation of Peter Norvig's sudoku solver.
+Cobol implementation of Peter Norvig's sudoku solver: http://norvig.com/sudoku.html
 
 It solves every sudoku that I've tried it on, including all those on his webpage in a comparable amount of time.
 
