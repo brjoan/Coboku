@@ -1,5 +1,5 @@
       ******************************************************************
-      * Author: Joan Bagud‡ Rigol
+      * Author: Joan Bagud√† Rigol
       * Date: 17/09/2017
       * Purpose: COBOL Implementation of Peter Norvig's sudoku solver
       * Tectonics: cobc
@@ -103,7 +103,7 @@
        01  Cont  picture 99.
        01  Cont2 picture 99.
 
-      ******Table for convertion digit to character
+      ******Table for conversion digit to character
        01  CarDigits PICTURE X(9) VALUE '123456789'.
        01  FILLER    REDEFINES CarDigits.
            05 Digits OCCURS 9 TIMES PICTURE X.
@@ -550,7 +550,7 @@
 
       ******  APPLY ASSIGNATION (ADD TO ELIMINATE LIST) *************
        Aplica-assignacio.
-      *    Apliquem assignaciÛ continguda a (Nivell,pLlAss(nivell))
+      *    Apliquem assignaci√≥ continguda a (Nivell,pLlAss(nivell))
            MOVE 1 TO pLl
            MOVE 1 TO uLl
            MOVE Assicas(Nivell,pLlAss(Nivell)) TO icas2
